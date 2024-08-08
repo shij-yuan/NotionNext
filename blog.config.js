@@ -327,14 +327,14 @@ const BLOG = {
       artist: 'Andrew Prahlow',
       url: 'https://music.163.com/song/media/outer/url?id=1879097584.mp3',
       cover:
-          'https://p1.music.126.net/MmzJiU8aTJIKggreKtyiRA==/109951166426723051.jpg'
+          'https://p1.music.126.net/uQhyI1ltAXY2wgdyd5MbwA==/109951166426723051.jpg'
     },
     {
       name: 'Echoes of the Eye',
       artist: 'Andrew Prahlow',
       url: 'https://music.163.com/song/media/outer/url?id=1879098276.mp3',
       cover:
-          'https://p1.music.126.net/MmzJiU8aTJIKggreKtyiRA==/109951166726773143.jpg'
+          'https://p1.music.126.net/uQhyI1ltAXY2wgdyd5MbwA==/109951166426723051.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
