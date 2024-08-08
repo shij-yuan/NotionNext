@@ -202,7 +202,7 @@ const BLOG = {
   BACKGROUND_DARK: '#000000', // use hex value, don't forget '#'
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
 
-  POST_SHARE_BAR_ENABLE: process.env.NEXT_PUBLIC_POST_SHARE_BAR || 'true', // 文章分享功能 ，将在底部显示一个分享条
+  POST_SHARE_BAR_ENABLE: process.env.NEXT_PUBLIC_POST_SHARE_BAR || 'false', // 文章分享功能 ，将在底部显示一个分享条
   POSTS_SHARE_SERVICES:
     process.env.NEXT_PUBLIC_POST_SHARE_SERVICES ||
     'link,wechat', // 分享的服務，按顺序显示,逗号隔开
@@ -314,6 +314,27 @@ const BLOG = {
       url: 'https://music.163.com/song/media/outer/url?id=1903401484.mp3',
       cover:
         'https://p1.music.126.net/MmzJiU8aTJIKggreKtyiRA==/109951166726773143.jpg'
+    },
+    {
+      name: 'Travelers',
+      artist: 'Andrew Prahlow',
+      url: 'https://music.163.com/song/media/outer/url?id=1903408778.mp3',
+      cover:
+          'https://p1.music.126.net/MmzJiU8aTJIKggreKtyiRA==/109951166726773143.jpg'
+    },
+    {
+      name: 'The River',
+      artist: 'Andrew Prahlow',
+      url: 'https://music.163.com/song/media/outer/url?id=1879097584.mp3',
+      cover:
+          'https://p1.music.126.net/MmzJiU8aTJIKggreKtyiRA==/109951166426723051.jpg'
+    },
+    {
+      name: 'Echoes of the Eye',
+      artist: 'Andrew Prahlow',
+      url: 'https://music.163.com/song/media/outer/url?id=1879098276.mp3',
+      cover:
+          'https://p1.music.126.net/MmzJiU8aTJIKggreKtyiRA==/109951166726773143.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
