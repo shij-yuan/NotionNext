@@ -25,7 +25,7 @@ export const ArticleInfo = (props) => {
                                 alt={siteConfig('AUTHOR')}
                                 width={24}
                                 height={24}
-                                src={`https://file.notion.so/f/f/0774cddc-38d4-434f-b0d8-33887268c4ad/413db233-e051-418e-a37e-e2a34eb2c11e/owl(1).jpeg?table=block&id=12d871ea-865a-8014-867b-dffcfd45f47b&spaceId=0774cddc-38d4-434f-b0d8-33887268c4ad&expirationTimestamp=1730203200000&signature=JlEv1y5J4B4IlV8qXQ2b7Br-fKZacpmNESqb3A5yRjw&downloadName=owl%281%29.jpeg`}
+                                src={``}
                                 className="rounded-full"
                             />
                             <p className="ml-2 md:block">{siteConfig('AUTHOR')}</p>
